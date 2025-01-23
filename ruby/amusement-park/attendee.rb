@@ -9,8 +9,8 @@ class Attendee
   # end
   attr_reader :height, :pass_id
 
-  def issue_pass!(_pass_id)
-    @pass_id = _pass_id
+  def issue_pass!(pass_id)
+    @pass_id = pass_id
   end
 
   def revoke_pass!
