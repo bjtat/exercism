@@ -1,21 +1,19 @@
 class Attendee
   def initialize(height)
-    raise 'Implement the Attendee#initialize method'
+    @height = height
   end
 
-  def height
-    raise 'Implement the Attendee#height method'
-  end
+  # attr_reader is the same as defining this function
+  # def height
+  #   @height
+  # end
+  attr_reader :height, :pass_id
 
-  def pass_id
-    raise 'Implement the Attendee#pass_id method'
-  end
-
-  def issue_pass!(pass_id)
-    raise 'Implement the Attendee#issue_pass! method'
+  def issue_pass!(_pass_id)
+    @pass_id = _pass_id
   end
 
   def revoke_pass!
-    raise 'Implement the Attendee#revoke_pass! method'
+    @pass_id = nil
   end
 end
