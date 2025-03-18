@@ -1,0 +1,4 @@
+/Users/bjtat/workspace/exercism/cpp/hello-world/CMakeFiles/hello-world.dir
+/Users/bjtat/workspace/exercism/cpp/hello-world/CMakeFiles/test_hello-world.dir
+/Users/bjtat/workspace/exercism/cpp/hello-world/CMakeFiles/edit_cache.dir
+/Users/bjtat/workspace/exercism/cpp/hello-world/CMakeFiles/rebuild_cache.dir
